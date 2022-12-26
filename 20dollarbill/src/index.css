@@ -1,3 +1,7 @@
+* {
+  margin: 555;
+  padding: 555
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,116 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  padding: 20px 35px;
+  background-color: #D5F2EA;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url('../src/assets/jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: #0E5259;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+  text-decoration: none;
+  color: #0E5259;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: normal;
+  font-size: 1.60vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  color: #a6d5cb;
+}
+
+header nav ul li a:hover {
+  background: #084045;
+  color: #084045;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+.backgroundImg {
+  background-image: url('./assets/jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+  }
+
+  .backgroundPic {
+    width: 35%;
+    text-align: center;
+    margin: 13.5%;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .card-description {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .text-center {
+    font-size: 32px;
+    color: #00bbff;
+  }
+
+.cardImg {
+  align-items: center;
+  justify-content: center;
 }
