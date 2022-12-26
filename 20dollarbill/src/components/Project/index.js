@@ -67,7 +67,7 @@ return (
         <div className="card-description">
           {instance.description}
         </div>
-        <a href={instance.repo}><FaGithub /></a>
+        <a className="githublogo" href={instance.repo}><FaGithub /></a>
         </div>
     </div>
     

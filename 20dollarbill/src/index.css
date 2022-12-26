@@ -127,3 +127,10 @@ header nav ul li a:hover {
   align-items: center;
   justify-content: center;
 }
+
+.githublogo {
+  display: inline-block;
+  text-align: center;
+  font-size: 2.5em;
+  vertical-align: center;
+}
