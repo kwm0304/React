@@ -15,7 +15,7 @@ const Contact = () => {
   }
   return (
     <div className="container mt-5">
-      <h2 className="mb-3">Contact</h2>
+      <h1 className="mb-3">Contact</h1>
       <form onSubmit={onSubmit}>
         <div className="mb-3">
           <label className="form-label" htmlFor="name">
