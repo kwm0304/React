@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from '../Nav';
 
-function Header() {
+function Header(props) {
 const { currentTab, setCurrentTab } = props;
 
 return(
