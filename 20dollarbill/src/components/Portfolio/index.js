@@ -2,6 +2,9 @@ import React from 'react'
 import quiz from '../../assets/quiz.png'
 import scheduler from '../../assets/scheduler.png'
 import weather from '../../assets/weather.png'
+import generator from '../../assets/employee-generator.png'
+import password from '../../assets/password.png'
+import backend from '../../assets/backend.png'
 
 
 function Portfolio() {
@@ -35,6 +38,35 @@ function Portfolio() {
     </div>
       <div className="card-description">
         Made using moment.js and jquery, this provides app provides a real-time work day schedule to keep the user on track.
+      </div>
+  </div>
+ 
+  <div className="card">
+    <div className="cardImgLink">
+    <h2 className='cardTitle'>Employee Generator</h2>
+      <a href="https://kwm0304.github.io/Employee-Generator/"><img className="cardImg" src={generator} style={{width:"20%"}} alt="day planner" /></a>
+    </div>
+      <div className="card-description">
+        This command line application generates an overview of a company's employees.
+      </div>
+  </div>
+  
+  <div className="card">
+    <div className="cardImgLink">
+    <h2 className='cardTitle'>Password Generator</h2>
+      <a href="https://kwm0304.github.io/Random-Password-Generator/"><img className="cardImg" src={password} style={{width:"20%"}} alt="day planner" /></a>
+    </div>
+      <div className="card-description">
+        This random password generator was made using vanilla javascript.
+      </div>
+  </div>
+  <div className="card">
+    <div className="cardImgLink">
+    <h2 className='cardTitle'>Social-Network-API</h2>
+      <a href="https://github.com/kwm0304/Social-Network-API"><img className="cardImg" src={backend} style={{width:"20%"}} alt="day planner" /></a>
+    </div>
+      <div className="card-description">
+        This project constructed the backend for a social network site using express and mongoose.
       </div>
   </div>
 </div>
