@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "bootstrap": "^5.2.3"
-  },
-  "scripts": {
-    "start": "cd 20dollarbill && npm start"
-}
-}
